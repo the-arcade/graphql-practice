@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/the-arcade/graphql-practice.git",
   "author": "Dillon Jeffers",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^0.9.1"
+  }
 }
