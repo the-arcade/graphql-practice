@@ -1,0 +1,9 @@
+{
+  "name": "graphql-practice",
+  "version": "0.0.1",
+  "description": "Practice GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/the-arcade/graphql-practice.git",
+  "author": "Dillon Jeffers",
+  "license": "MIT"
+}
