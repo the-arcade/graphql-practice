@@ -3,10 +3,12 @@ var express = require("express"),
     { buildSchema } = require("graphql"),
     schema = buildSchema(`
             type Query {
-                hello: String
+                hello: String,
+                helloAgain: String
             }
     `),
-    root = { hello: () => "Hello, World!" },
+    root = { hello: () => "Hello, World!",
+             helloAgain: () => "Hello, World, again!"},
     app = express();
 
 app.use("/graphql", graphqlHTTP({
